@@ -25,32 +25,32 @@ smaller bitmap.
 | **DigiByte bitmaps** | Solid-background and transparent-background PNG variants | [Bitmap logo library](Logos%20Bitmap/) |
 | **DigiByte icons** | Favicons, touch icons, and common square icon sizes | [Symbol icons](Symbol%20Icons/) |
 | **Digi-ID** | Digi-ID logo and icon variants in SVG and PNG | [Digi-ID assets](Digi-ID%20Logos/Digi-ID_logos/) |
-| **DigiAssets** | DigiAssets logos, editable artwork, and sample category icons | [DigiAssets logos](DigiAsset%20Logos/) Â· [DigiAsset icons](DigiAsset%20Icons/) |
+| **DigiAssets** | DigiAssets logos, editable artwork, and sample category icons | [DigiAssets logos](DigiAsset%20Logos/) / [DigiAsset icons](DigiAsset%20Icons/) |
 | **DigiDollar** | Full badge, compact glyph, bitmap exports, favicons, app icons, and colour variants | [DigiDollar assets and usage guide](DigiDollar%20Logos/) |
 
 ## Repository structure
 
 ```text
 digibyte-logos/
-âââ Logos Vector/       # DigiByte SVG masters
-âââ Logos Bitmap/       # DigiByte PNG artwork and visual guide
-âââ Symbol Icons/       # DigiByte favicon and application icons
-âââ Digi-ID Logos/      # Digi-ID SVG and PNG assets
-âââ DigiAsset Logos/    # DigiAssets logo artwork
-âââ DigiAsset Icons/    # Sample DigiAsset category icons
-âââ DigiDollar Logos/   # DigiDollar vectors, bitmaps, icons, and guide
+|-- Logos Vector/       # DigiByte SVG masters
+|-- Logos Bitmap/       # DigiByte PNG artwork and visual guide
+|-- Symbol Icons/       # DigiByte favicon and application icons
+|-- Digi-ID Logos/      # Digi-ID SVG and PNG assets
+|-- DigiAsset Logos/    # DigiAssets logo artwork
+|-- DigiAsset Icons/    # Sample DigiAsset category icons
+`-- DigiDollar Logos/   # DigiDollar vectors, bitmaps, icons, and guide
 ```
 
 ## Choosing a file format
 
-- **SVG** â Preferred for websites, applications, print, presentations, and
+- **SVG** - Preferred for websites, applications, print, presentations, and
   design work. It scales without losing quality.
-- **PNG** â Best for social media, listings, documents, and fixed-size
+- **PNG** - Best for social media, listings, documents, and fixed-size
   interfaces. Use the nearest supplied size and the correct transparent or
   solid-background version.
-- **ICO** â Intended for traditional browser favicons. Use the supplied
+- **ICO** - Intended for traditional browser favicons. Use the supplied
   multi-resolution file rather than converting a single PNG.
-- **AI / PDF** â Available as editable source artwork or reference material
+- **AI / PDF** - Available as editable source artwork or reference material
   for selected collections. Verify export settings before publishing
   derivatives.
 
